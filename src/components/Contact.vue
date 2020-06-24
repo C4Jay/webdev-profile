@@ -62,7 +62,7 @@
                        </v-text-field>
                        
                    </v-flex>
-                   <v-btn class="mt-7 ml-4" ><v-icon light> mdi-chevron-triple-right</v-icon></v-btn>
+                   <v-btn class="mt-7 ml-4" ><v-icon light>mdi-chevron-triple-right</v-icon></v-btn>
                </v-layout>
                    
             </v-flex>
