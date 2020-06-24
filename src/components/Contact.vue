@@ -19,7 +19,7 @@
         <!-- <v-flex class="item"><router-link to="/contact" class="link">contact</router-link></v-flex> -->
    </v-layout>
 
-   <v-btn class="btn ml-10" fab dark small color="pink">
+   <v-btn class="btn ml-10" to="/" fab dark small color="pink">
       <v-icon dark>mdi-home</v-icon>
     </v-btn>
 
@@ -93,7 +93,9 @@ body {
     /* width: 600px; */
     background-color: aqua;
     color: white;
-     box-shadow: 10px 10px 8px #888888
+     
+     box-shadow: 10px 10px 8px #888888;
+     animation: blink 15s infinite;
 }
 
 /* .contact, .textfield {
@@ -159,8 +161,21 @@ p {
     /* width: 400px; */
     background-color: aqua;
     color: white;
-     box-shadow: 10px 10px 8px #888888
+     box-shadow: 10px 10px 8px #888888;
+     padding: 20px;
+    margin: 20px;
 }
+}
+
+@keyframes blink {
+    0% {box-shadow: 0px 10px 8px #888888}
+    20% {box-shadow: 10px 0px 8px #888888}
+    40% {box-shadow: 10px 10px 0px #888888}
+        60% {box-shadow: 10px 0px 8px #888888}
+            80% {box-shadow: 0px 10px 8px #888888}
+            100% {box-shadow: 10px 0px 8px #888888}
+
+
 }
 
 </style>
