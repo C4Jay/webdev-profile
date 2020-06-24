@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import Sections from '@/components/Sections.vue';
 import Projects from '@/components/Projects.vue';
 import Resume from '@/components/Resume.vue';
+import Contact from '@/components/Contact.vue';
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ Vue.use(VueRouter)
     path: '/resume',
     name: 'Resume',
     component: Resume
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
   
 ]

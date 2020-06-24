@@ -17,13 +17,17 @@
         <v-flex class="item"><router-link to="/contact" class="link">contact</router-link></v-flex>
    </v-layout>
 
+   <v-btn to="/" class="btn ml-10" fab dark small color="pink">
+      <v-icon dark>mdi-home</v-icon>
+    </v-btn>
+
    <main>
 
        <h1>projects</h1>
        <v-layout row wrap class="text-center">
            <v-flex xs12 offset-sm2 sm4 class="project">
               <h4> Can I Run It</h4>
-               <p>Can I Run It is a web app where you can test system requirements of 10000+ games since 2000's.This project was done by me and one of my friends.I used React to build the frontend of the website.The best part is we didn't use any existing API's for our system.We created several API's ourselves while building this project.One for the games list, and one for CPU, GPU, RAM scores.Users can select any game they want from our huge list and fill their machine details and our system tells how good that game would perform on that machine respective to each hardware(processor, ram, gpu).In the near future we will gfinish the module where users can get an estimate for pc builds in regards to prices from online sellers.</p>
+               <p>Can I Run It is a web app where you can test system requirements of 10000+ games since 2000's.This project was done by me and one of my friends.I used React to build the frontend of the website.The best part is we didn't use any existing API's for our system.We created several API's ourselves while building this project.One for the games list, and one for CPU, GPU, RAM scores.Users can select any game they want from our huge list and fill their machine details and our system tells how good that game would perform on that machine respective to each hardware(processor, ram, gpu).In the near future we will gfinish the module where users can get an estimate for pc builds in regards to prices from online sellers.00</p>
                <h5>React, Node, Mongo, Firebase, Python</h5>
                <div class="mt-4">
                <v-btn href="https://github.com/CanIRunIt" class="mx-2" fab dark small color="pink">
@@ -37,7 +41,7 @@
 
                <v-flex xs12 sm4 class="project">
               <h4> Can I Run It mobile</h4>
-               <p>Can I Run It mobile is the mobile app where you can test system requirements of 10000+ games since 2000's.This project was done by me and one of my friends.I used React to build the frontend of the website.The best part is we didn't use any existing API's for our system.We created several API's ourselves while building this project.One for the games list, and one for CPU, GPU, RAM scores.Users can select any game they want from our huge list and fill their machine details and our system tells how good that game would perform on that machine respective to each hardware(processor, ram, gpu).In the near future we will gfinish the module where users can get an estimate for pc builds in regards to prices from online sellers.</p>
+               <p>Can I Run It mobile is the mobile app where you can test system requirements of 10000+ games since 2000's.This project was done by me and one of my friends.I used React to build the frontend of the website.The best part is we didn't use any existing API's for our system.We created several API's ourselves while building this project.One for the games list, and one for CPU, GPU, RAM scores.Users can select any game they want from our huge list and fill their machine details and our system tells how good that game would perform on that machine respective to each hardware(processor, ram, gpu).In the near future we will gfinish the module where users can get an estimate for pc builds in regards to prices from online sellers.00</p>
                <h5>React Native, Node, Mongo, Firebase, Python</h5>
                <div class="mt-4">
                <v-btn href="https://github.com/CanIRunIt" class="mx-2" fab dark small color="pink">
@@ -193,6 +197,10 @@ body {
     margin-left: auto;
     align-items: center
     
+}
+
+.btn{
+  position: fixed;
 }
 
 button {

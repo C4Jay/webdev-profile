@@ -16,6 +16,10 @@
         <v-flex class="item"><router-link to="/contact" class="link">contact</router-link></v-flex>
    </v-layout>
 
+   <v-btn to="/" class="btn ml-10" fab dark small color="pink">
+      <v-icon dark>mdi-home</v-icon>
+    </v-btn>
+
    <main>
        <h1>resume</h1>
         <v-layout row wrap>
@@ -297,6 +301,10 @@ h5 {
     color: white
 }
 
+
+.btn {
+    position: fixed;
+}
 .nav-list {
     /* display: ; */
     height: 10vh;
@@ -310,7 +318,9 @@ h5 {
 }
 
 
-
+.inner {
+    padding: 10px;
+}
 span {
     color: black;
     font-size: 12px
