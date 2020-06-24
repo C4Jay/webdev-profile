@@ -53,7 +53,7 @@
                </v-layout>
 
                <v-layout row>
-                   <v-flex offset-sm1 xs8>
+                   <v-flex offset-sm1 xs9>
                        <span>message</span>
                        <v-text-field
                        
