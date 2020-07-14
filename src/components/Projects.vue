@@ -96,8 +96,10 @@
            </v-flex>
 
            <v-flex xs12 sm4 class="project">
-               <h4>Treflor</h4>
-               <p>Treflor provides routes in the wilderness where google maps doesn't provide any.The mobile app let users track their paths and submit them to the system.Then anyone can use that path to find their way in the wild.</p>
+               
+
+               <h4>KrushiGanudenuLK (delivery system) </h4>
+               <p>This is our third year group project.The main goal of this project was to reduce wastage of crops in the island in growing, matching sellers and buyers and transporting phases.We designed two mobile apps and a web site.I created the driver's app and the delivery booking part of the other app in our system.Farmers and buyers can set a date,time and book a vehicle after selecting a suitable vehicle for their purpose from the list of drivers.They have the ability to view the driver's location on a map and the distance to the driver as well as vehicle information.Then driver's have the ability to accept or decline a booking.I also built the navigation feature which gives navigation for drivers with help of google maps.</p>
                <h5>Vue, Firebase, Node, Mongo</h5>
                <div class="mt-4">
                <v-btn href="https://github.com/CanIRunIt" class="mx-2" fab dark small color="pink">
@@ -110,6 +112,40 @@
            </v-flex>
 
                       <v-flex xs12 offset-sm2 sm4 class="project">
+                
+
+
+               <h4>KrushiGanudenuLK (web site) </h4>
+               <p>This is the web site of the KrushiGanudenuLK system.I designed the entire site except for the authorization module.Users of this web app are farmers and bulk buyers.There is an online marketplace which farmers can post stocks and buyers can checkout these stocks and send buy requests to farmers.Stock request module is another feature of this web app.Buyers can request stocks from farmers by filling out a form.They have the ability to specify the quantity and also the asking price.Then there is another feature which shows the total quantities requested by buyers and the average asking price for each crop.One more feature of this web app is the farmer locater.We collect farmers information such as their name growing crop of this season and the expected yield.Then I show these details in a map with pointers defining the crop for ease of use.</p>
+               <h5>Vue, Firebase, Node, Mongo</h5>
+               <div class="mt-4">
+               <v-btn href="https://github.com/CanIRunIt" class="mx-2" fab dark small color="pink">
+      <v-icon dark>mdi-github</v-icon>
+    </v-btn>
+    <v-btn href="https://wedding-planner-project.web.app/" class="mx-2" fab dark small color="pink">
+      <v-icon dark>mdi-monitor-eye</v-icon>
+    </v-btn>
+               </div>
+
+
+           </v-flex>
+
+           <v-flex xs12 sm4 class="project">
+                <h4>Treflor</h4>
+               <p>Treflor provides routes in the wilderness where google maps doesn't provide any.The mobile app let users track their paths and submit them to the system.Then anyone can use that path to find their way in the wild.</p>
+               <h5>Vue, Firebase, Node, Mongo</h5>
+               <div class="mt-4">
+               <v-btn href="https://github.com/CanIRunIt" class="mx-2" fab dark small color="pink">
+      <v-icon dark>mdi-github</v-icon>
+    </v-btn>
+    <v-btn href="https://wedding-planner-project.web.app/" class="mx-2" fab dark small color="pink">
+      <v-icon dark>mdi-monitor-eye</v-icon>
+    </v-btn>
+               </div>
+           </v-flex>
+
+
+           <v-flex xs12 offset-sm2 sm4 class="project">
                 <h4>The blings</h4>
                <p>E-commerce site for a polymer clay jewellery shop.Owner can put up products, manage orders etc.</p>
                <h5>Vue, Firebase, Node, Mongo</h5>
@@ -159,6 +195,8 @@
    
                </div>
                </v-flex>
+
+               
 
 
          </v-layout>

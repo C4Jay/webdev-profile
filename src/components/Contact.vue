@@ -35,6 +35,7 @@
                    <v-flex sm5 offset-sm1 xs10 class="textfield">
                        <span>name</span>
                        <v-text-field
+                       background-color="grey"
                        class="green--text"
                        label="name"
                        solo
@@ -44,19 +45,21 @@
                    <v-flex sm5 xs10 class="textfield">
                        <span>mail/phone</span>
                        <v-text-field
+                       background-color="grey"
                        solo
-                       placeholder="mail">
+                       placeholder="mail/phone">
                        </v-text-field>
                    </v-flex>
             
 
                </v-layout>
 
-               <v-layout row>
+               <v-layout row class="mb-9">
                    <v-flex offset-sm1 xs9>
                        <span>message</span>
                        <v-text-field
-                       
+                       background-color="grey"
+                       class="text-input-black"
                        solo
                        placeholder="message">
                        </v-text-field>
@@ -89,13 +92,15 @@ body {
 
 }
 .contact {
-    height: 280px;
+    height: 340px;
     /* width: 600px; */
     background-color: aqua;
-    color: white;
+    /* color: white; */
      
      box-shadow: 10px 10px 8px #888888;
      animation: blink 15s infinite;
+     padding: 20px;
+     color: black
 }
 
 /* .contact, .textfield {
@@ -107,7 +112,11 @@ body {
     /* height: 55px; */
     /* margin: 20px; */
     padding: 20px;
-    color: green
+    color: green    
+}
+
+.text-input-blue .v-text-field__slot input {
+   color: black !important;
 }
 
 .nav-list {
@@ -129,6 +138,7 @@ body {
 span {
     color: white;
     font-size: 16px;
+    font-weight: bold
 }
 p {
     font-weight: bold;

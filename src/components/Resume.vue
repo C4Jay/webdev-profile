@@ -78,12 +78,12 @@
                <v-flex class="section">
                         <h4>Visit Sri Lanka - Mobile app</h4>
                         <span>2020</span>
-                        <h5>React Native, Firebase</h5>
+                        <h5 class="techs">React Native, Firebase</h5>
                         <p>I created the app Visit Sri Lanka as a solo project using React Native.It is an app which shows places to visit in Sri Lanka.Users can view , mark places as favorites.the app also provides realtime navigation to each place.</p>
                         
                         <h4>Visit Sri Lanka - Web app</h4>
                         <span>2020</span>
-                        <h5>React, CSS, Firebase</h5>
+                        <h5 class="techs">React, CSS, Firebase</h5>
                         <p>Lists places to visit in Sri Lanka and their coordinates registered users can also mark their favorites.They can view favorites from either the web app or the mobile app afterwards.</p>
                         
 
@@ -103,7 +103,19 @@
                         <span>2020</span>
                         <h5>React Native, Firebase</h5>
                         <p>This is the mobile app for the CanIRunIt system.</p>
-                        
+
+                        <h4>KrushiGanudenuLK (delivery system)</h4>
+                        <span>2020</span>
+                        <h5>React Native, Firebase</h5>
+                        <p>Krushiganudenu is a system built to minimize the wastage of crops in sri lanka.I developed the driver's app and the booking part of the others app.</p>
+
+
+                        <h4>KrushiGanudenuLK (web app)</h4>
+                        <span>2020</span>
+                        <h5>React, CSS, Firebase</h5>
+                        <p>I designed most of the features of this site.Online marketplace, checkout, buyers stock requests, requests analysis, farmers and their crops analysis are those features.</p>
+
+
 
                          <h4>Treflor</h4>
                         <span>2019</span>
@@ -186,6 +198,24 @@
       color="teal"
       buffer-value="0"
       value="80"
+      stream
+      class="mb-4"
+    ></v-progress-linear>
+
+    <h5>AWS</h5>
+                        <v-progress-linear
+      color="teal"
+      buffer-value="0"
+      value="60"
+      stream
+      class="mb-4"
+    ></v-progress-linear>
+
+    <h5>Spring</h5>
+                        <v-progress-linear
+      color="teal"
+      buffer-value="0"
+      value="60"
       stream
       class="mb-4"
     ></v-progress-linear>
@@ -375,6 +405,9 @@ h4 {
     box-shadow: 5px 5px rgba(136, 138, 143, 0.5)
 }
 
+.project h5 {
+    color:brown
+}
 .project1 {
     /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
     /* height: 200px; */
@@ -434,6 +467,10 @@ h4 {
     /* box-shadow: 5px 5px rgba(136, 138, 143, 0.5) */
 }
 
+
+.section h5 {
+    color: #e39042
+}
 } 
 
 </style>
