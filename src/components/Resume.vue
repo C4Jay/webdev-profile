@@ -81,28 +81,21 @@
                         <h5 class="techs">React Native, Firebase</h5>
                         <p>I created the app Visit Sri Lanka as a solo project using React Native.It is an app which shows places to visit in Sri Lanka.Users can view , mark places as favorites.the app also provides realtime navigation to each place.</p>
                         
-                        <h4>Visit Sri Lanka - Web app</h4>
+                        <h4>Streaming service with AWS IVS</h4>
                         <span>2020</span>
                         <h5 class="techs">React, CSS, Firebase</h5>
                         <p>Lists places to visit in Sri Lanka and their coordinates registered users can also mark their favorites.They can view favorites from either the web app or the mobile app afterwards.</p>
                         
+                        <h4>Visit Sri Lanka - Web app</h4>
+                        <span>2020</span>
+                        <h5 class="techs">AWS IVS, AWS RDS, Spring Boot, React</h5>
+                        <p>Streaming done with the use of AWS IVS.Data storage is on AWS RDS.
+            React is used to build the frontend while Springboot handles the
+            backend work. This app has the ability to register users, Provide
+            users with straming keys, Host their live streams, Live chat is also
+            there. Sending bits(donations) part is stil in the works.</p>
+        
 
-                        <h4>Profile creator with spring boot aws backend</h4>
-                        <span>2020</span>
-                        <h5 class="techs">React, Spring Boot, AWS</h5>
-                        <p>This web app lets you create profiles with profile photos.I created a spring boot backend for this app.It takes user given files(jpeg, png, gif) and stores them in AWS S3.</p>
-                        
-                        <h4>Profile creator with spring JEE</h4>
-                        <span>2020</span>
-                        <h5 class="techs">JEE</h5>
-                        <p>This app is created with Java Enterprise Edition.It lets you create profiles and save them in MySql database.</p>
-                        
-
-                         <h4>Wedding Arcade</h4>
-                        <span>2020</span>
-                        <h5>Vue, Firebase</h5>
-                        <p>I created the official web site of Wedding Arcade.They provide services related to weddings and similar occasions and act as a hub for all service providers.</p>
-                        
 
                         <h4>Can I Run It</h4>
                         <span>2020</span>
@@ -124,8 +117,13 @@
                         <h4>KrushiGanudenuLK (web app)</h4>
                         <span>2020</span>
                         <h5>React, CSS, Firebase</h5>
-                        <p>I designed most of the features of this site.Online marketplace, checkout, buyers stock requests, requests analysis, farmers and their crops analysis are those features.</p>
+                        <p>This is my 3rd year university group project.Online marketplace, checkout, buyers stock requests, requests analysis, farmers and their crops analysis are the features I designed.</p>
 
+                         <h4>Wedding Arcade</h4>
+                        <span>2020</span>
+                        <h5>Vue, Firebase</h5>
+                        <p>I created the official web site of Wedding Arcade.They provide services related to weddings and similar occasions and act as a hub for all service providers.</p>
+                        
 
 
                          <h4>Treflor</h4>
