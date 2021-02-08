@@ -35,6 +35,7 @@
                    <v-flex sm5 offset-sm1 xs10 class="textfield">
                        <span>name</span>
                        <v-text-field
+                       v-model="name"
                        background-color="grey"
                        class="green--text"
                        label="name"
@@ -45,6 +46,7 @@
                    <v-flex sm5 xs10 class="textfield">
                        <span>mail/phone</span>
                        <v-text-field
+                       v-model="mailphone"
                        background-color="grey"
                        solo
                        placeholder="mail/phone">
@@ -58,6 +60,7 @@
                    <v-flex offset-sm1 xs9>
                        <span>message</span>
                        <v-text-field
+                       v-model="message"
                        background-color="grey"
                        class="text-input-black"
                        solo
@@ -65,7 +68,7 @@
                        </v-text-field>
                        
                    </v-flex>
-                   <v-btn class="mt-7 ml-4" ><v-icon light>mdi-chevron-triple-right</v-icon></v-btn>
+                   <v-btn @click="this.send" class="mt-7 ml-4" ><v-icon light>mdi-chevron-triple-right</v-icon></v-btn>
                </v-layout>
                    
             </v-flex>
@@ -74,6 +77,32 @@
     </body>
 
 </template>
+
+<script>
+import axios from 'axios';
+export default {
+    
+    data () {
+        return {
+            name: '',
+            mailphone: '',
+            message: ''
+        }
+    },
+
+    methods: {
+        send() {
+            axios.post('https://choolakejinendra.firebaseio.com/messages.json', {name: this.name, mailphone: this.mailphone, message: this.message})
+            .then(response => {
+                console.log(response)
+            }).catch(er => {
+                console.log(er)
+            })
+        }
+    }
+}
+</script>
+
 
 
 <style scoped>

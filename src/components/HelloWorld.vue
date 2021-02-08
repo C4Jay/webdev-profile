@@ -10,13 +10,17 @@
        <v-layout row wrap class="text-center">
         <v-flex class="title">
           <h1> Hi I`m Choolake Jinendra</h1>
-          <h2> I do web and mobile development<span> |</span></h2>
+          <h2> I Do Full Stack Development</h2>
         </v-flex>
           </v-layout>
           <div class="btngroup">
           <v-flex class="text-center btn">
             <v-btn text-color="green" to="/projects" outlined color="#09fbd3" class="btn">go in</v-btn>
           </v-flex>
+          <v-flex xs12 class="text-center googlelink">
+     <h4>Visit Sri Lanka app is live on Google play store</h4>
+     <a href='https://play.google.com/store/apps/details?id=com.tripproject.tripproject&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="google" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+     </v-flex>
           </div>
         </v-container>
       <!-- </slot> -->
@@ -154,7 +158,7 @@
   }
 
   .btngroup {
-    margin-top: 100px
+    margin-top: 45px
   }
 
  
@@ -298,6 +302,17 @@
   0% {display: flex}
   50% {display: none}
 }
+.googlelink {
+  margin-top: 40px;
+}
+.google {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+}
 
-
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: white
+}
 </style>

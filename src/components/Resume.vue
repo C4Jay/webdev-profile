@@ -32,7 +32,7 @@
                 <v-layout row>
                     <v-flex class="section">
                         <h4>about me</h4>
-                        <p>Computer Science undergraduate at University Of Colombo School Of Computing.Full stack web developer with React,Vue, Node, Express 2+ years experience. Mobile app developer with 2+ years of React Native experience. </p>
+                        <p>Computer Science undergraduate at University Of Colombo School Of Computing.Full stack web developer with React,Vue, Node, Spring boot, AWS, JEE, Express 2+ years experience. Mobile app developer with 2+ years of React Native experience. </p>
                     </v-flex>
                 </v-layout>
 
@@ -76,7 +76,7 @@
                <h2>projects</h2>    
 
                <v-flex class="section">
-                        <h4>Visit Sri Lanka - Mobile app</h4>
+                        <h4>Visit Sri Lanka - Mobile app (Google play store pending publication)</h4>
                         <span>2020</span>
                         <h5 class="techs">React Native, Firebase</h5>
                         <p>I created the app Visit Sri Lanka as a solo project using React Native.It is an app which shows places to visit in Sri Lanka.Users can view , mark places as favorites.the app also provides realtime navigation to each place.</p>
@@ -85,6 +85,17 @@
                         <span>2020</span>
                         <h5 class="techs">React, CSS, Firebase</h5>
                         <p>Lists places to visit in Sri Lanka and their coordinates registered users can also mark their favorites.They can view favorites from either the web app or the mobile app afterwards.</p>
+                        
+
+                        <h4>Profile creator with spring boot aws backend</h4>
+                        <span>2020</span>
+                        <h5 class="techs">React, Spring Boot, AWS</h5>
+                        <p>This web app lets you create profiles with profile photos.I created a spring boot backend for this app.It takes user given files(jpeg, png, gif) and stores them in AWS S3.</p>
+                        
+                        <h4>Profile creator with spring JEE</h4>
+                        <span>2020</span>
+                        <h5 class="techs">JEE</h5>
+                        <p>This app is created with Java Enterprise Edition.It lets you create profiles and save them in MySql database.</p>
                         
 
                          <h4>Wedding Arcade</h4>
@@ -163,20 +174,40 @@
       class="mb-4"
     ></v-progress-linear>
 
-    <h5>Javascript</h5>
+
+    <h5>AWS</h5>
                         <v-progress-linear
       color="teal"
       buffer-value="0"
-      value="80"
+      value="60"
       stream
       class="mb-4"
     ></v-progress-linear>
 
-    <h5>HTML</h5>
+    <h5>Spring Boot</h5>
                         <v-progress-linear
       color="teal"
       buffer-value="0"
-      value="90"
+      value="60"
+      stream
+      class="mb-4"
+    ></v-progress-linear>
+
+
+    <h5>Java Enterprise Edition(JEE)</h5>
+                        <v-progress-linear
+      color="teal"
+      buffer-value="0"
+      value="60"
+      stream
+      class="mb-4"
+    ></v-progress-linear>
+
+    <h5>Node</h5>
+                        <v-progress-linear
+      color="teal"
+      buffer-value="0"
+      value="60"
       stream
       class="mb-4"
     ></v-progress-linear>
@@ -202,41 +233,9 @@
       class="mb-4"
     ></v-progress-linear>
 
-    <h5>AWS</h5>
-                        <v-progress-linear
-      color="teal"
-      buffer-value="0"
-      value="60"
-      stream
-      class="mb-4"
-    ></v-progress-linear>
+    
 
-    <h5>Spring</h5>
-                        <v-progress-linear
-      color="teal"
-      buffer-value="0"
-      value="60"
-      stream
-      class="mb-4"
-    ></v-progress-linear>
-
-    <h5>Node</h5>
-                        <v-progress-linear
-      color="teal"
-      buffer-value="0"
-      value="60"
-      stream
-      class="mb-4"
-    ></v-progress-linear>
-
-    <h5>Mongo</h5>
-                        <v-progress-linear
-      color="teal"
-      buffer-value="0"
-      value="60"
-      stream
-      class="mb-4"
-    ></v-progress-linear>
+   
 
     <h5>Python</h5>
                         <v-progress-linear
@@ -283,15 +282,7 @@
       class="mb-4"
     ></v-progress-linear>
 
-    <h5>E-commerce</h5>
-                        <v-progress-linear
-      color="teal"
-      buffer-value="0"
-      value="80"
-      stream
-      class="mb-4"
-    ></v-progress-linear>
-
+    
     
 
     
